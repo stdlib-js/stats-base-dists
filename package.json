@@ -15,6 +15,7 @@
   ],
   "main": "./lib",
   "directories": {
+    "doc": "./docs",
     "example": "./examples",
     "lib": "./lib",
     "test": "./test"
@@ -65,6 +66,7 @@
     "@stdlib/stats-base-dists-pareto-type1": "^0.0.x",
     "@stdlib/stats-base-dists-poisson": "^0.0.x",
     "@stdlib/stats-base-dists-rayleigh": "^0.0.x",
+    "@stdlib/stats-base-dists-signrank": "^0.0.x",
     "@stdlib/stats-base-dists-t": "^0.0.x",
     "@stdlib/stats-base-dists-triangular": "^0.0.x",
     "@stdlib/stats-base-dists-truncated-normal": "^0.0.x",
