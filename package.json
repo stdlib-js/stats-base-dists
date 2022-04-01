@@ -626,6 +626,7 @@
     "@stdlib/stats-base-dists-weibull-skewness": "^0.0.x",
     "@stdlib/stats-base-dists-weibull-stdev": "^0.0.x",
     "@stdlib/stats-base-dists-weibull-variance": "^0.0.x",
+    "@stdlib/string-format": "^0.0.x",
     "@stdlib/utils-constant-function": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.0.x",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.0.x",
