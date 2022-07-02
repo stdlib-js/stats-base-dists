@@ -24,30 +24,38 @@ limitations under the License.
 
 > Base (i.e., lower-level) probability distribution modules.
 
-<section class="installation">
 
-## Installation
-
-```bash
-npm install @stdlib/stats-base-dists
-```
-
-Alternatively,
-
--   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
--   If you are using Deno, visit the [`deno` branch][deno-url].
--   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
-
-The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
-
-</section>
 
 <section class="usage">
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var dists = require( '@stdlib/stats-base-dists' );
+dists = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@umd/browser.js' )
+```
+
+To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
+
+```javascript
+var dists = require( 'path/to/vendor/umd/stats-base-dists/index.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@umd/browser.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.dists;
+})();
+</script>
 ```
 
 #### dists
@@ -139,11 +147,21 @@ var distributions = dists;
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var objectKeys = require( '@stdlib/utils-keys' );
-var dists = require( '@stdlib/stats-base-dists' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@umd/browser.js"></script>
+<script type="text/javascript">
+(function () {
 
 console.log( objectKeys( dists ) );
+
+})();
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -229,75 +247,75 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/degenerate]: https://github.com/stdlib-js/stats-base-dists-degenerate
+[@stdlib/stats/base/dists/degenerate]: https://github.com/stdlib-js/stats-base-dists-degenerate/tree/umd
 
-[@stdlib/stats/base/dists/bernoulli]: https://github.com/stdlib-js/stats-base-dists-bernoulli
+[@stdlib/stats/base/dists/bernoulli]: https://github.com/stdlib-js/stats-base-dists-bernoulli/tree/umd
 
-[@stdlib/stats/base/dists/binomial]: https://github.com/stdlib-js/stats-base-dists-binomial
+[@stdlib/stats/base/dists/binomial]: https://github.com/stdlib-js/stats-base-dists-binomial/tree/umd
 
-[@stdlib/stats/base/dists/discrete-uniform]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform
+[@stdlib/stats/base/dists/discrete-uniform]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform/tree/umd
 
-[@stdlib/stats/base/dists/geometric]: https://github.com/stdlib-js/stats-base-dists-geometric
+[@stdlib/stats/base/dists/geometric]: https://github.com/stdlib-js/stats-base-dists-geometric/tree/umd
 
-[@stdlib/stats/base/dists/hypergeometric]: https://github.com/stdlib-js/stats-base-dists-hypergeometric
+[@stdlib/stats/base/dists/hypergeometric]: https://github.com/stdlib-js/stats-base-dists-hypergeometric/tree/umd
 
-[@stdlib/stats/base/dists/negative-binomial]: https://github.com/stdlib-js/stats-base-dists-negative-binomial
+[@stdlib/stats/base/dists/negative-binomial]: https://github.com/stdlib-js/stats-base-dists-negative-binomial/tree/umd
 
-[@stdlib/stats/base/dists/poisson]: https://github.com/stdlib-js/stats-base-dists-poisson
+[@stdlib/stats/base/dists/poisson]: https://github.com/stdlib-js/stats-base-dists-poisson/tree/umd
 
-[@stdlib/stats/base/dists/arcsine]: https://github.com/stdlib-js/stats-base-dists-arcsine
+[@stdlib/stats/base/dists/arcsine]: https://github.com/stdlib-js/stats-base-dists-arcsine/tree/umd
 
-[@stdlib/stats/base/dists/beta]: https://github.com/stdlib-js/stats-base-dists-beta
+[@stdlib/stats/base/dists/beta]: https://github.com/stdlib-js/stats-base-dists-beta/tree/umd
 
-[@stdlib/stats/base/dists/betaprime]: https://github.com/stdlib-js/stats-base-dists-betaprime
+[@stdlib/stats/base/dists/betaprime]: https://github.com/stdlib-js/stats-base-dists-betaprime/tree/umd
 
-[@stdlib/stats/base/dists/cauchy]: https://github.com/stdlib-js/stats-base-dists-cauchy
+[@stdlib/stats/base/dists/cauchy]: https://github.com/stdlib-js/stats-base-dists-cauchy/tree/umd
 
-[@stdlib/stats/base/dists/chi]: https://github.com/stdlib-js/stats-base-dists-chi
+[@stdlib/stats/base/dists/chi]: https://github.com/stdlib-js/stats-base-dists-chi/tree/umd
 
-[@stdlib/stats/base/dists/chisquare]: https://github.com/stdlib-js/stats-base-dists-chisquare
+[@stdlib/stats/base/dists/chisquare]: https://github.com/stdlib-js/stats-base-dists-chisquare/tree/umd
 
-[@stdlib/stats/base/dists/cosine]: https://github.com/stdlib-js/stats-base-dists-cosine
+[@stdlib/stats/base/dists/cosine]: https://github.com/stdlib-js/stats-base-dists-cosine/tree/umd
 
-[@stdlib/stats/base/dists/erlang]: https://github.com/stdlib-js/stats-base-dists-erlang
+[@stdlib/stats/base/dists/erlang]: https://github.com/stdlib-js/stats-base-dists-erlang/tree/umd
 
-[@stdlib/stats/base/dists/exponential]: https://github.com/stdlib-js/stats-base-dists-exponential
+[@stdlib/stats/base/dists/exponential]: https://github.com/stdlib-js/stats-base-dists-exponential/tree/umd
 
-[@stdlib/stats/base/dists/f]: https://github.com/stdlib-js/stats-base-dists-f
+[@stdlib/stats/base/dists/f]: https://github.com/stdlib-js/stats-base-dists-f/tree/umd
 
-[@stdlib/stats/base/dists/frechet]: https://github.com/stdlib-js/stats-base-dists-frechet
+[@stdlib/stats/base/dists/frechet]: https://github.com/stdlib-js/stats-base-dists-frechet/tree/umd
 
-[@stdlib/stats/base/dists/gamma]: https://github.com/stdlib-js/stats-base-dists-gamma
+[@stdlib/stats/base/dists/gamma]: https://github.com/stdlib-js/stats-base-dists-gamma/tree/umd
 
-[@stdlib/stats/base/dists/gumbel]: https://github.com/stdlib-js/stats-base-dists-gumbel
+[@stdlib/stats/base/dists/gumbel]: https://github.com/stdlib-js/stats-base-dists-gumbel/tree/umd
 
-[@stdlib/stats/base/dists/invgamma]: https://github.com/stdlib-js/stats-base-dists-invgamma
+[@stdlib/stats/base/dists/invgamma]: https://github.com/stdlib-js/stats-base-dists-invgamma/tree/umd
 
-[@stdlib/stats/base/dists/kumaraswamy]: https://github.com/stdlib-js/stats-base-dists-kumaraswamy
+[@stdlib/stats/base/dists/kumaraswamy]: https://github.com/stdlib-js/stats-base-dists-kumaraswamy/tree/umd
 
-[@stdlib/stats/base/dists/laplace]: https://github.com/stdlib-js/stats-base-dists-laplace
+[@stdlib/stats/base/dists/laplace]: https://github.com/stdlib-js/stats-base-dists-laplace/tree/umd
 
-[@stdlib/stats/base/dists/levy]: https://github.com/stdlib-js/stats-base-dists-levy
+[@stdlib/stats/base/dists/levy]: https://github.com/stdlib-js/stats-base-dists-levy/tree/umd
 
-[@stdlib/stats/base/dists/logistic]: https://github.com/stdlib-js/stats-base-dists-logistic
+[@stdlib/stats/base/dists/logistic]: https://github.com/stdlib-js/stats-base-dists-logistic/tree/umd
 
-[@stdlib/stats/base/dists/lognormal]: https://github.com/stdlib-js/stats-base-dists-lognormal
+[@stdlib/stats/base/dists/lognormal]: https://github.com/stdlib-js/stats-base-dists-lognormal/tree/umd
 
-[@stdlib/stats/base/dists/normal]: https://github.com/stdlib-js/stats-base-dists-normal
+[@stdlib/stats/base/dists/normal]: https://github.com/stdlib-js/stats-base-dists-normal/tree/umd
 
-[@stdlib/stats/base/dists/pareto-type1]: https://github.com/stdlib-js/stats-base-dists-pareto-type1
+[@stdlib/stats/base/dists/pareto-type1]: https://github.com/stdlib-js/stats-base-dists-pareto-type1/tree/umd
 
-[@stdlib/stats/base/dists/rayleigh]: https://github.com/stdlib-js/stats-base-dists-rayleigh
+[@stdlib/stats/base/dists/rayleigh]: https://github.com/stdlib-js/stats-base-dists-rayleigh/tree/umd
 
-[@stdlib/stats/base/dists/signrank]: https://github.com/stdlib-js/stats-base-dists-signrank
+[@stdlib/stats/base/dists/signrank]: https://github.com/stdlib-js/stats-base-dists-signrank/tree/umd
 
-[@stdlib/stats/base/dists/t]: https://github.com/stdlib-js/stats-base-dists-t
+[@stdlib/stats/base/dists/t]: https://github.com/stdlib-js/stats-base-dists-t/tree/umd
 
-[@stdlib/stats/base/dists/triangular]: https://github.com/stdlib-js/stats-base-dists-triangular
+[@stdlib/stats/base/dists/triangular]: https://github.com/stdlib-js/stats-base-dists-triangular/tree/umd
 
-[@stdlib/stats/base/dists/truncated-normal]: https://github.com/stdlib-js/stats-base-dists-truncated-normal
+[@stdlib/stats/base/dists/truncated-normal]: https://github.com/stdlib-js/stats-base-dists-truncated-normal/tree/umd
 
-[@stdlib/stats/base/dists/uniform]: https://github.com/stdlib-js/stats-base-dists-uniform
+[@stdlib/stats/base/dists/uniform]: https://github.com/stdlib-js/stats-base-dists-uniform/tree/umd
 
 <!-- </toc-links> -->
 
