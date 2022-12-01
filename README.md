@@ -24,20 +24,30 @@ limitations under the License.
 
 > Base (i.e., lower-level) probability distribution modules.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/stats-base-dists
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import dists from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@deno/mod.js';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { arcsine, bernoulli, beta, betaprime, binomial, cauchy, chi, chisquare, cosine, degenerate, discreteUniform, erlang, exponential, f, frechet, gamma, geometric, gumbel, hypergeometric, invgamma, kumaraswamy, laplace, levy, logistic, lognormal, negativeBinomial, normal, pareto1, poisson, rayleigh, signrank, t, triangular, truncatedNormal, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@deno/mod.js';
+var dists = require( '@stdlib/stats-base-dists' );
 ```
 
 #### dists
@@ -78,6 +88,7 @@ var distributions = dists;
 -   <span class="signature">[`pareto1`][@stdlib/stats/base/dists/pareto-type1]</span><span class="delimiter">: </span><span class="description">Pareto (Type I) distribution.</span>
 -   <span class="signature">[`rayleigh`][@stdlib/stats/base/dists/rayleigh]</span><span class="delimiter">: </span><span class="description">Rayleigh distribution.</span>
 -   <span class="signature">[`signrank`][@stdlib/stats/base/dists/signrank]</span><span class="delimiter">: </span><span class="description">distribution of the Wilcoxon signed rank test statistic.</span>
+-   <span class="signature">[`tukey`][@stdlib/stats/base/dists/studentized-range]</span><span class="delimiter">: </span><span class="description">Studentized range distribution.</span>
 -   <span class="signature">[`t`][@stdlib/stats/base/dists/t]</span><span class="delimiter">: </span><span class="description">Student's t distribution.</span>
 -   <span class="signature">[`triangular`][@stdlib/stats/base/dists/triangular]</span><span class="delimiter">: </span><span class="description">triangular distribution.</span>
 -   <span class="signature">[`truncatedNormal`][@stdlib/stats/base/dists/truncated-normal]</span><span class="delimiter">: </span><span class="description">truncated normal distribution.</span>
@@ -130,8 +141,8 @@ var distributions = dists;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import dists from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@deno/mod.js';
+var objectKeys = require( '@stdlib/utils-keys' );
+var dists = require( '@stdlib/stats-base-dists' );
 
 console.log( objectKeys( dists ) );
 ```
@@ -157,7 +168,7 @@ console.log( objectKeys( dists ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -219,75 +230,77 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <toc-links> -->
 
-[@stdlib/stats/base/dists/degenerate]: https://github.com/stdlib-js/stats-base-dists-degenerate/tree/deno
+[@stdlib/stats/base/dists/degenerate]: https://github.com/stdlib-js/stats-base-dists-degenerate
 
-[@stdlib/stats/base/dists/bernoulli]: https://github.com/stdlib-js/stats-base-dists-bernoulli/tree/deno
+[@stdlib/stats/base/dists/bernoulli]: https://github.com/stdlib-js/stats-base-dists-bernoulli
 
-[@stdlib/stats/base/dists/binomial]: https://github.com/stdlib-js/stats-base-dists-binomial/tree/deno
+[@stdlib/stats/base/dists/binomial]: https://github.com/stdlib-js/stats-base-dists-binomial
 
-[@stdlib/stats/base/dists/discrete-uniform]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform/tree/deno
+[@stdlib/stats/base/dists/discrete-uniform]: https://github.com/stdlib-js/stats-base-dists-discrete-uniform
 
-[@stdlib/stats/base/dists/geometric]: https://github.com/stdlib-js/stats-base-dists-geometric/tree/deno
+[@stdlib/stats/base/dists/geometric]: https://github.com/stdlib-js/stats-base-dists-geometric
 
-[@stdlib/stats/base/dists/hypergeometric]: https://github.com/stdlib-js/stats-base-dists-hypergeometric/tree/deno
+[@stdlib/stats/base/dists/hypergeometric]: https://github.com/stdlib-js/stats-base-dists-hypergeometric
 
-[@stdlib/stats/base/dists/negative-binomial]: https://github.com/stdlib-js/stats-base-dists-negative-binomial/tree/deno
+[@stdlib/stats/base/dists/negative-binomial]: https://github.com/stdlib-js/stats-base-dists-negative-binomial
 
-[@stdlib/stats/base/dists/poisson]: https://github.com/stdlib-js/stats-base-dists-poisson/tree/deno
+[@stdlib/stats/base/dists/poisson]: https://github.com/stdlib-js/stats-base-dists-poisson
 
-[@stdlib/stats/base/dists/arcsine]: https://github.com/stdlib-js/stats-base-dists-arcsine/tree/deno
+[@stdlib/stats/base/dists/arcsine]: https://github.com/stdlib-js/stats-base-dists-arcsine
 
-[@stdlib/stats/base/dists/beta]: https://github.com/stdlib-js/stats-base-dists-beta/tree/deno
+[@stdlib/stats/base/dists/beta]: https://github.com/stdlib-js/stats-base-dists-beta
 
-[@stdlib/stats/base/dists/betaprime]: https://github.com/stdlib-js/stats-base-dists-betaprime/tree/deno
+[@stdlib/stats/base/dists/betaprime]: https://github.com/stdlib-js/stats-base-dists-betaprime
 
-[@stdlib/stats/base/dists/cauchy]: https://github.com/stdlib-js/stats-base-dists-cauchy/tree/deno
+[@stdlib/stats/base/dists/cauchy]: https://github.com/stdlib-js/stats-base-dists-cauchy
 
-[@stdlib/stats/base/dists/chi]: https://github.com/stdlib-js/stats-base-dists-chi/tree/deno
+[@stdlib/stats/base/dists/chi]: https://github.com/stdlib-js/stats-base-dists-chi
 
-[@stdlib/stats/base/dists/chisquare]: https://github.com/stdlib-js/stats-base-dists-chisquare/tree/deno
+[@stdlib/stats/base/dists/chisquare]: https://github.com/stdlib-js/stats-base-dists-chisquare
 
-[@stdlib/stats/base/dists/cosine]: https://github.com/stdlib-js/stats-base-dists-cosine/tree/deno
+[@stdlib/stats/base/dists/cosine]: https://github.com/stdlib-js/stats-base-dists-cosine
 
-[@stdlib/stats/base/dists/erlang]: https://github.com/stdlib-js/stats-base-dists-erlang/tree/deno
+[@stdlib/stats/base/dists/erlang]: https://github.com/stdlib-js/stats-base-dists-erlang
 
-[@stdlib/stats/base/dists/exponential]: https://github.com/stdlib-js/stats-base-dists-exponential/tree/deno
+[@stdlib/stats/base/dists/exponential]: https://github.com/stdlib-js/stats-base-dists-exponential
 
-[@stdlib/stats/base/dists/f]: https://github.com/stdlib-js/stats-base-dists-f/tree/deno
+[@stdlib/stats/base/dists/f]: https://github.com/stdlib-js/stats-base-dists-f
 
-[@stdlib/stats/base/dists/frechet]: https://github.com/stdlib-js/stats-base-dists-frechet/tree/deno
+[@stdlib/stats/base/dists/frechet]: https://github.com/stdlib-js/stats-base-dists-frechet
 
-[@stdlib/stats/base/dists/gamma]: https://github.com/stdlib-js/stats-base-dists-gamma/tree/deno
+[@stdlib/stats/base/dists/gamma]: https://github.com/stdlib-js/stats-base-dists-gamma
 
-[@stdlib/stats/base/dists/gumbel]: https://github.com/stdlib-js/stats-base-dists-gumbel/tree/deno
+[@stdlib/stats/base/dists/gumbel]: https://github.com/stdlib-js/stats-base-dists-gumbel
 
-[@stdlib/stats/base/dists/invgamma]: https://github.com/stdlib-js/stats-base-dists-invgamma/tree/deno
+[@stdlib/stats/base/dists/invgamma]: https://github.com/stdlib-js/stats-base-dists-invgamma
 
-[@stdlib/stats/base/dists/kumaraswamy]: https://github.com/stdlib-js/stats-base-dists-kumaraswamy/tree/deno
+[@stdlib/stats/base/dists/kumaraswamy]: https://github.com/stdlib-js/stats-base-dists-kumaraswamy
 
-[@stdlib/stats/base/dists/laplace]: https://github.com/stdlib-js/stats-base-dists-laplace/tree/deno
+[@stdlib/stats/base/dists/laplace]: https://github.com/stdlib-js/stats-base-dists-laplace
 
-[@stdlib/stats/base/dists/levy]: https://github.com/stdlib-js/stats-base-dists-levy/tree/deno
+[@stdlib/stats/base/dists/levy]: https://github.com/stdlib-js/stats-base-dists-levy
 
-[@stdlib/stats/base/dists/logistic]: https://github.com/stdlib-js/stats-base-dists-logistic/tree/deno
+[@stdlib/stats/base/dists/logistic]: https://github.com/stdlib-js/stats-base-dists-logistic
 
-[@stdlib/stats/base/dists/lognormal]: https://github.com/stdlib-js/stats-base-dists-lognormal/tree/deno
+[@stdlib/stats/base/dists/lognormal]: https://github.com/stdlib-js/stats-base-dists-lognormal
 
-[@stdlib/stats/base/dists/normal]: https://github.com/stdlib-js/stats-base-dists-normal/tree/deno
+[@stdlib/stats/base/dists/normal]: https://github.com/stdlib-js/stats-base-dists-normal
 
-[@stdlib/stats/base/dists/pareto-type1]: https://github.com/stdlib-js/stats-base-dists-pareto-type1/tree/deno
+[@stdlib/stats/base/dists/pareto-type1]: https://github.com/stdlib-js/stats-base-dists-pareto-type1
 
-[@stdlib/stats/base/dists/rayleigh]: https://github.com/stdlib-js/stats-base-dists-rayleigh/tree/deno
+[@stdlib/stats/base/dists/rayleigh]: https://github.com/stdlib-js/stats-base-dists-rayleigh
 
-[@stdlib/stats/base/dists/signrank]: https://github.com/stdlib-js/stats-base-dists-signrank/tree/deno
+[@stdlib/stats/base/dists/signrank]: https://github.com/stdlib-js/stats-base-dists-signrank
 
-[@stdlib/stats/base/dists/t]: https://github.com/stdlib-js/stats-base-dists-t/tree/deno
+[@stdlib/stats/base/dists/studentized-range]: https://github.com/stdlib-js/stats-base-dists-studentized-range
 
-[@stdlib/stats/base/dists/triangular]: https://github.com/stdlib-js/stats-base-dists-triangular/tree/deno
+[@stdlib/stats/base/dists/t]: https://github.com/stdlib-js/stats-base-dists-t
 
-[@stdlib/stats/base/dists/truncated-normal]: https://github.com/stdlib-js/stats-base-dists-truncated-normal/tree/deno
+[@stdlib/stats/base/dists/triangular]: https://github.com/stdlib-js/stats-base-dists-triangular
 
-[@stdlib/stats/base/dists/uniform]: https://github.com/stdlib-js/stats-base-dists-uniform/tree/deno
+[@stdlib/stats/base/dists/truncated-normal]: https://github.com/stdlib-js/stats-base-dists-truncated-normal
+
+[@stdlib/stats/base/dists/uniform]: https://github.com/stdlib-js/stats-base-dists-uniform
 
 <!-- </toc-links> -->
 
