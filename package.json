@@ -86,7 +86,7 @@
     "@stdlib/assert-is-positive-integer": "^0.1.0",
     "@stdlib/assert-is-positive-number": "^0.1.1",
     "@stdlib/assert-is-probability": "^0.1.1",
-    "@stdlib/bench": "^0.1.0",
+    "@stdlib/bench": "^0.2.0",
     "@stdlib/constants-float64-e": "^0.1.1",
     "@stdlib/constants-float64-eps": "^0.1.1",
     "@stdlib/constants-float64-eulergamma": "^0.1.1",
