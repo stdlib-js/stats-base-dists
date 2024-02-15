@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dists from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@esm/index.mjs';
+import dists from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@v0.2.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { arcsine, bernoulli, beta, betaprime, binomial, cauchy, chi, chisquare, cosine, degenerate, discreteUniform, erlang, exponential, f, frechet, gamma, geometric, gumbel, hypergeometric, invgamma, kumaraswamy, laplace, levy, logistic, lognormal, negativeBinomial, normal, pareto1, poisson, rayleigh, signrank, t, triangular, truncatedNormal, tukey, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@esm/index.mjs';
+import { arcsine, bernoulli, beta, betaprime, binomial, cauchy, chi, chisquare, cosine, degenerate, discreteUniform, erlang, exponential, f, frechet, gamma, geometric, gumbel, hypergeometric, invgamma, kumaraswamy, laplace, levy, logistic, lognormal, negativeBinomial, normal, pareto1, poisson, rayleigh, signrank, t, triangular, truncatedNormal, tukey, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@v0.2.0-esm/index.mjs';
 ```
 
 #### dists
@@ -148,7 +148,7 @@ var distributions = dists;
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@esm/index.mjs';
-import dists from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@esm/index.mjs';
+import dists from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@v0.2.0-esm/index.mjs';
 
 console.log( objectKeys( dists ) );
 
