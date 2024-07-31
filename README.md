@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import dists from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists/tags). For example,
+
+```javascript
 import dists from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@v0.2.2-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { arcsine, bernoulli, beta, betaprime, binomial, cauchy, chi, chisquare, cosine, degenerate, discreteUniform, erlang, exponential, f, frechet, gamma, geometric, gumbel, hypergeometric, invgamma, kumaraswamy, laplace, levy, logistic, lognormal, negativeBinomial, normal, pareto1, poisson, rayleigh, signrank, t, triangular, truncatedNormal, tukey, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@v0.2.2-deno/mod.js';
+import { arcsine, bernoulli, beta, betaprime, binomial, cauchy, chi, chisquare, cosine, degenerate, discreteUniform, erlang, exponential, f, frechet, gamma, geometric, gumbel, hypergeometric, invgamma, kumaraswamy, laplace, levy, logistic, lognormal, negativeBinomial, normal, pareto1, poisson, rayleigh, signrank, t, triangular, truncatedNormal, tukey, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@deno/mod.js';
 ```
 
 #### dists
@@ -143,7 +148,7 @@ var distributions = dists;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import dists from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@v0.2.2-deno/mod.js';
+import dists from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@deno/mod.js';
 
 console.log( objectKeys( dists ) );
 ```
