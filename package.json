@@ -76,6 +76,7 @@
     "@stdlib/utils-define-read-only-property": "^0.2.2"
   },
   "devDependencies": {
+    "@stdlib/array-filled-by": "^0.2.1",
     "@stdlib/array-float64": "^0.2.2",
     "@stdlib/assert-has-own-property": "^0.2.2",
     "@stdlib/assert-is-function": "^0.2.2",
@@ -162,6 +163,7 @@
     "@stdlib/math-base-special-trunc": "^0.2.2",
     "@stdlib/math-base-tools-sum-series": "^0.2.2",
     "@stdlib/random-base-discrete-uniform": "^0.2.1",
+    "@stdlib/random-base-gumbel": "^0.2.1",
     "@stdlib/random-base-randu": "^0.2.1",
     "@stdlib/random-base-uniform": "^0.2.1",
     "@stdlib/stats-base-dists-arcsine-cdf": "^0.2.2",
@@ -633,6 +635,9 @@
     "@stdlib/stats-base-dists-weibull-skewness": "^0.2.2",
     "@stdlib/stats-base-dists-weibull-stdev": "^0.2.2",
     "@stdlib/stats-base-dists-weibull-variance": "^0.2.2",
+    "@stdlib/stats-base-mean": "^0.2.2",
+    "@stdlib/stats-base-stdev": "^0.2.2",
+    "@stdlib/stats-base-variance": "^0.2.2",
     "@stdlib/string-format": "^0.2.2",
     "@stdlib/utils-constant-function": "^0.2.2",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.2.3",
