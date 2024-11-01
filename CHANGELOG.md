@@ -4,25 +4,65 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-10-01)
+## Unreleased (2024-11-01)
 
 <section class="packages">
 
 ### Packages
 
+<section class="package" id="stats-base-dists-cosine-unreleased">
+
+#### [@stdlib/stats/base/dists/cosine](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/stats/base/dists/cosine)
+
+<details>
+
+<section class="issues">
+
+##### Closed Issues
+
+This release closes the following issue:
+
+[#1620](https://github.com/stdlib-js/stdlib/issues/1620)
+
+</section>
+
+<!-- /.issues -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 </section>
 
 <!-- /.packages -->
+
+<section class="issues">
+
+### Closed Issues
+
+This release closes the following issue:
+
+[#1620](https://github.com/stdlib-js/stdlib/issues/1620)
+
+</section>
+
+<!-- /.issues -->
 
 <section class="contributors">
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 7 people contributed to this release. Thank you to the following contributors:
 
+-   Kohantika Nath
 -   Philipp Burckhardt
+-   Shivam
 -   Tufailahmed Bargir
+-   UtkershBasnet
 -   olenkabilonizhka
+-   shivam Ahir
 
 </section>
 
@@ -34,6 +74,14 @@ A total of 3 people contributed to this release. Thank you to the following cont
 
 <details>
 
+-   [`fdd3963`](https://github.com/stdlib-js/stdlib/commit/fdd3963096904e999191e354dede1ca59461adc2) - **chore:** minor clean-up _(by Philipp Burckhardt)_
+-   [`e5b993a`](https://github.com/stdlib-js/stdlib/commit/e5b993a1b314d478be07dabc12a7b349872e4427) - **docs:** improve README examples of `stats/base/dists/cosine` namespace [(#2669)](https://github.com/stdlib-js/stdlib/pull/2669) _(by Kohantika Nath, Kohantika Nath, Philipp Burckhardt)_
+-   [`43e7a33`](https://github.com/stdlib-js/stdlib/commit/43e7a3386606e54475e872d24ddf11fa6c122c42) - **chore:** minor clean-up after code review _(by Philipp Burckhardt)_
+-   [`f0ab00b`](https://github.com/stdlib-js/stdlib/commit/f0ab00bf081e55b928de80320c75dc42e713ad3d) - **docs:** improve README examples of `stats/base/dists/chi` namespace [(#1803)](https://github.com/stdlib-js/stdlib/pull/1803) _(by Shivam, Philipp Burckhardt)_
+-   [`caaf0d9`](https://github.com/stdlib-js/stdlib/commit/caaf0d9f3597fac939a52fb15bdf6465fa0a3125) - **docs:** improve README examples of `stats/base/dists/geometric` namespace [(#1801)](https://github.com/stdlib-js/stdlib/pull/1801) _(by Shivam, Philipp Burckhardt, shivam Ahir)_
+-   [`e399bfd`](https://github.com/stdlib-js/stdlib/commit/e399bfd09baf0b50ea9beb49f65867cd1a1e45b7) - **docs:** improve README examples of `stats/base/dists/gamma` namespace [(#1804)](https://github.com/stdlib-js/stdlib/pull/1804) _(by Shivam, Philipp Burckhardt, shivam Ahir)_
+-   [`6c3b249`](https://github.com/stdlib-js/stdlib/commit/6c3b2492906413f1d994aebe9dbc12b11245f108) - **docs:** improve README examples of `stats/base/dists/invgamma namespace` [(#1808)](https://github.com/stdlib-js/stdlib/pull/1808) _(by Shivam, Philipp Burckhardt, shivam Ahir)_
+-   [`61912b7`](https://github.com/stdlib-js/stdlib/commit/61912b7eed6c5f60d074210347d31472da963b22) - **docs:** improve examples of `stats/base/dists/exponential` namespace _(by UtkershBasnet, Philipp Burckhardt)_
 -   [`abf0407`](https://github.com/stdlib-js/stdlib/commit/abf040787f6598438b0100a729a8331b7f80f62f) - **chore:** resolve lint errors in TS files _(by Philipp Burckhardt)_
 -   [`7fb04a9`](https://github.com/stdlib-js/stdlib/commit/7fb04a92ebae797788f7047feac1caaf6a7a1f4f) - **style:** add missing spaces around parentheses _(by Philipp Burckhardt)_
 -   [`d7bf560`](https://github.com/stdlib-js/stdlib/commit/d7bf560813d0f6cd44418dad0e8e84dd3f0a1596) - **docs:** improve examples of `stats/base/dists/gumbel` _(by olenkabilonizhka, Philipp Burckhardt)_
