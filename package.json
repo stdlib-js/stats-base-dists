@@ -646,7 +646,7 @@
     "@stdlib/stats-base-mean": "^0.2.2",
     "@stdlib/stats-base-stdev": "^0.2.2",
     "@stdlib/stats-base-variance": "^0.2.2",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/utils-constant-function": "^0.2.2",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.2.3",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
