@@ -81,6 +81,7 @@ var distributions = dists;
 -   <span class="signature">[`arcsine`][@stdlib/stats/base/dists/arcsine]</span><span class="delimiter">: </span><span class="description">arcsine distribution.</span>
 -   <span class="signature">[`beta`][@stdlib/stats/base/dists/beta]</span><span class="delimiter">: </span><span class="description">beta distribution.</span>
 -   <span class="signature">[`betaprime`][@stdlib/stats/base/dists/betaprime]</span><span class="delimiter">: </span><span class="description">beta prime distribution.</span>
+-   <span class="signature">[`bradford`][@stdlib/stats/base/dists/bradford]</span><span class="delimiter">: </span><span class="description">bradford distribution.</span>
 -   <span class="signature">[`cauchy`][@stdlib/stats/base/dists/cauchy]</span><span class="delimiter">: </span><span class="description">Cauchy distribution.</span>
 -   <span class="signature">[`chi`][@stdlib/stats/base/dists/chi]</span><span class="delimiter">: </span><span class="description">Chi distribution.</span>
 -   <span class="signature">[`chisquare`][@stdlib/stats/base/dists/chisquare]</span><span class="delimiter">: </span><span class="description">Chi-squared distribution.</span>
@@ -123,6 +124,7 @@ var distributions = dists;
 -   <span class="signature">[`geometric`][@stdlib/stats/base/dists/geometric]</span><span class="delimiter">: </span><span class="description">geometric distribution.</span>
 -   <span class="signature">[`hypergeometric`][@stdlib/stats/base/dists/hypergeometric]</span><span class="delimiter">: </span><span class="description">hypergeometric distribution.</span>
 -   <span class="signature">[`negativeBinomial`][@stdlib/stats/base/dists/negative-binomial]</span><span class="delimiter">: </span><span class="description">negative binomial distribution.</span>
+-   <span class="signature">[`planck`][@stdlib/stats/base/dists/planck]</span><span class="delimiter">: </span><span class="description">planck distribution.</span>
 -   <span class="signature">[`poisson`][@stdlib/stats/base/dists/poisson]</span><span class="delimiter">: </span><span class="description">Poisson distribution.</span>
 
 </div>
@@ -260,6 +262,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/stats/base/dists/negative-binomial]: https://github.com/stdlib-js/stats-base-dists-negative-binomial
 
+[@stdlib/stats/base/dists/planck]: https://github.com/stdlib-js/stats-base-dists-planck
+
 [@stdlib/stats/base/dists/poisson]: https://github.com/stdlib-js/stats-base-dists-poisson
 
 [@stdlib/stats/base/dists/arcsine]: https://github.com/stdlib-js/stats-base-dists-arcsine
@@ -267,6 +271,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [@stdlib/stats/base/dists/beta]: https://github.com/stdlib-js/stats-base-dists-beta
 
 [@stdlib/stats/base/dists/betaprime]: https://github.com/stdlib-js/stats-base-dists-betaprime
+
+[@stdlib/stats/base/dists/bradford]: https://github.com/stdlib-js/stats-base-dists-bradford
 
 [@stdlib/stats/base/dists/cauchy]: https://github.com/stdlib-js/stats-base-dists-cauchy
 
