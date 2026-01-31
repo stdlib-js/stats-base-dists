@@ -677,7 +677,7 @@
     "@stdlib/stats-strided-mean": "github:stdlib-js/stats-strided-mean#main",
     "@stdlib/stats-strided-stdev": "github:stdlib-js/stats-strided-stdev#main",
     "@stdlib/stats-strided-variance": "github:stdlib-js/stats-strided-variance#main",
-    "@stdlib/string-format": "^0.2.2",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2",
     "@stdlib/utils-constant-function": "^0.2.2",
     "@stdlib/utils-define-nonenumerable-read-only-accessor": "^0.2.3",
     "@stdlib/utils-define-nonenumerable-read-only-property": "^0.2.2",
