@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import dists from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@deno/mod.js';
+import dists from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@v0.3.0-deno/mod.js';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { arcsine, bernoulli, beta, betaprime, binomial, bradford, cauchy, chi, chisquare, cosine, degenerate, discreteUniform, erlang, exponential, f, frechet, gamma, geometric, gumbel, hypergeometric, invgamma, kumaraswamy, laplace, levy, logistic, lognormal, negativeBinomial, normal, pareto1, planck, poisson, rayleigh, signrank, t, triangular, truncatedNormal, tukey, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@deno/mod.js';
+import { arcsine, bernoulli, beta, betaprime, binomial, bradford, cauchy, chi, chisquare, cosine, degenerate, discreteUniform, erlang, exponential, f, frechet, gamma, geometric, gumbel, hypergeometric, invgamma, kumaraswamy, laplace, levy, logistic, lognormal, negativeBinomial, normal, pareto1, planck, poisson, rayleigh, signrank, t, triangular, truncatedNormal, tukey, uniform, weibull } from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@v0.3.0-deno/mod.js';
 ```
 
 #### dists
@@ -145,7 +145,7 @@ var distributions = dists;
 
 ```javascript
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-keys@deno/mod.js';
-import dists from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@deno/mod.js';
+import dists from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists@v0.3.0-deno/mod.js';
 
 console.log( objectKeys( dists ) );
 ```
