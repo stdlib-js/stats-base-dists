@@ -107,6 +107,7 @@ var distributions = dists;
 -   <span class="signature">[`triangular`][@stdlib/stats/base/dists/triangular]</span><span class="delimiter">: </span><span class="description">triangular distribution.</span>
 -   <span class="signature">[`truncatedNormal`][@stdlib/stats/base/dists/truncated-normal]</span><span class="delimiter">: </span><span class="description">truncated normal distribution.</span>
 -   <span class="signature">[`uniform`][@stdlib/stats/base/dists/uniform]</span><span class="delimiter">: </span><span class="description">continuous uniform distribution.</span>
+-   <span class="signature">[`weibull`][@stdlib/stats/base/dists/weibull]</span><span class="delimiter">: </span><span class="description">Weibull distribution.</span>
 
 </div>
 
@@ -323,6 +324,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/stats/base/dists/truncated-normal]: https://github.com/stdlib-js/stats-base-dists-truncated-normal
 
 [@stdlib/stats/base/dists/uniform]: https://github.com/stdlib-js/stats-base-dists-uniform
+
+[@stdlib/stats/base/dists/weibull]: https://github.com/stdlib-js/stats-base-dists-weibull
 
 <!-- </toc-links> -->
 

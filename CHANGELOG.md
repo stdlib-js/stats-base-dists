@@ -4,12 +4,13 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-08-02)
+## Unreleased (2026-08-13)
 
 <section class="features">
 
 ### Features
 
+-   [`f1c6572`](https://github.com/stdlib-js/stdlib/commit/f1c65722a3e378195187b5c815f50cbda36e1e3d) - add `stats/base/dists/wald/mgf` [(#12399)](https://github.com/stdlib-js/stdlib/pull/12399)
 -   [`525c0cb`](https://github.com/stdlib-js/stdlib/commit/525c0cb527f9e8d116489aaf0dbb722abc471aeb) - add C implementation for `stats/base/dists/invgamma/quantile` [(#13640)](https://github.com/stdlib-js/stdlib/pull/13640)
 -   [`72cc422`](https://github.com/stdlib-js/stdlib/commit/72cc422f63246e16aad23b6d93ba01406a6267eb) - add `stats/base/dists/anglit/pdf` [(#13642)](https://github.com/stdlib-js/stdlib/pull/13642)
 -   [`fd3be1e`](https://github.com/stdlib-js/stdlib/commit/fd3be1e9ce03cd0f58fb6ee9d775a9c801ace05f) - add C implementation for `stats/base/dists/binomial/quantile` [(#4415)](https://github.com/stdlib-js/stdlib/pull/4415)
@@ -90,9 +91,9 @@
 
 ### Closed Issues
 
-A total of 19 issues were closed in this release:
+A total of 20 issues were closed in this release:
 
-[#3465](https://github.com/stdlib-js/stdlib/issues/3465), [#3468](https://github.com/stdlib-js/stdlib/issues/3468), [#3474](https://github.com/stdlib-js/stdlib/issues/3474), [#3503](https://github.com/stdlib-js/stdlib/issues/3503), [#3568](https://github.com/stdlib-js/stdlib/issues/3568), [#3571](https://github.com/stdlib-js/stdlib/issues/3571), [#3612](https://github.com/stdlib-js/stdlib/issues/3612), [#3660](https://github.com/stdlib-js/stdlib/issues/3660), [#3677](https://github.com/stdlib-js/stdlib/issues/3677), [#3747](https://github.com/stdlib-js/stdlib/issues/3747), [#3756](https://github.com/stdlib-js/stdlib/issues/3756), [#3786](https://github.com/stdlib-js/stdlib/issues/3786), [#3793](https://github.com/stdlib-js/stdlib/issues/3793), [#3883](https://github.com/stdlib-js/stdlib/issues/3883), [#10662](https://github.com/stdlib-js/stdlib/issues/10662), [#10851](https://github.com/stdlib-js/stdlib/issues/10851), [#10978](https://github.com/stdlib-js/stdlib/issues/10978), [#10979](https://github.com/stdlib-js/stdlib/issues/10979), [#11289](https://github.com/stdlib-js/stdlib/issues/11289)
+[#209](https://github.com/stdlib-js/stdlib/issues/209), [#3465](https://github.com/stdlib-js/stdlib/issues/3465), [#3468](https://github.com/stdlib-js/stdlib/issues/3468), [#3474](https://github.com/stdlib-js/stdlib/issues/3474), [#3503](https://github.com/stdlib-js/stdlib/issues/3503), [#3568](https://github.com/stdlib-js/stdlib/issues/3568), [#3571](https://github.com/stdlib-js/stdlib/issues/3571), [#3612](https://github.com/stdlib-js/stdlib/issues/3612), [#3660](https://github.com/stdlib-js/stdlib/issues/3660), [#3677](https://github.com/stdlib-js/stdlib/issues/3677), [#3747](https://github.com/stdlib-js/stdlib/issues/3747), [#3756](https://github.com/stdlib-js/stdlib/issues/3756), [#3786](https://github.com/stdlib-js/stdlib/issues/3786), [#3793](https://github.com/stdlib-js/stdlib/issues/3793), [#3883](https://github.com/stdlib-js/stdlib/issues/3883), [#10662](https://github.com/stdlib-js/stdlib/issues/10662), [#10851](https://github.com/stdlib-js/stdlib/issues/10851), [#10978](https://github.com/stdlib-js/stdlib/issues/10978), [#10979](https://github.com/stdlib-js/stdlib/issues/10979), [#11289](https://github.com/stdlib-js/stdlib/issues/11289)
 
 </section>
 
@@ -104,6 +105,42 @@ A total of 19 issues were closed in this release:
 
 <details>
 
+-   [`5f8108e`](https://github.com/stdlib-js/stdlib/commit/5f8108ecdd886bd931b2f6d61cd53a4ae5f08da7) - **docs:** update namespace table of contents [(#14216)](https://github.com/stdlib-js/stdlib/pull/14216) _(by stdlib-bot)_
+-   [`6f563d5`](https://github.com/stdlib-js/stdlib/commit/6f563d5f65c22965e60a82e70c73a5e687df4b00) - **style:** add missing spaces [(#14201)](https://github.com/stdlib-js/stdlib/pull/14201) _(by Philipp Burckhardt)_
+-   [`7c88159`](https://github.com/stdlib-js/stdlib/commit/7c88159a9896362c2408622adff00be3eef14420) - **test:** migrate `stats/base/dists/negative-binomial/logpmf` to ULP-based assertions [(#14199)](https://github.com/stdlib-js/stdlib/pull/14199) _(by Athan Reines)_
+-   [`57b9c44`](https://github.com/stdlib-js/stdlib/commit/57b9c44d351a44858b83509810dd96116ac6bb28) - **test:** migrate `stats/base/dists/gamma/pdf` to ULP-based assertions [(#14206)](https://github.com/stdlib-js/stdlib/pull/14206) _(by Athan Reines)_
+-   [`0d59e49`](https://github.com/stdlib-js/stdlib/commit/0d59e491d662cb131869b6437c113dda340daf24) - **test:** migrate `stats/base/dists/chisquare/mgf` to ULP-based assertions [(#14209)](https://github.com/stdlib-js/stdlib/pull/14209) _(by Athan Reines)_
+-   [`2498242`](https://github.com/stdlib-js/stdlib/commit/24982425e037f773cf22d504b9b235a49c04d23b) - **test:** migrate `stats/base/dists/uniform/logpdf` to ULP-based assertions [(#14210)](https://github.com/stdlib-js/stdlib/pull/14210) _(by Philipp Burckhardt)_
+-   [`83e21db`](https://github.com/stdlib-js/stdlib/commit/83e21db95ac994a1b151aa723e8a36c9245e2eeb) - **test:** migrate `stats/base/dists/cosine/stdev` to ULP-based assertions [(#14211)](https://github.com/stdlib-js/stdlib/pull/14211) _(by Athan Reines)_
+-   [`b768913`](https://github.com/stdlib-js/stdlib/commit/b768913ab00423562638323ec95bb6bea56b0db9) - **test:** migrate `stats/base/dists/erlang/mode` to ULP-based assertions [(#14189)](https://github.com/stdlib-js/stdlib/pull/14189) _(by Athan Reines)_
+-   [`ed143dc`](https://github.com/stdlib-js/stdlib/commit/ed143dcf897b1fe7309d1686ee63ce605e3f545a) - **chore:** add keyword [(#14181)](https://github.com/stdlib-js/stdlib/pull/14181) _(by Philipp Burckhardt, Athan Reines)_
+-   [`048e06b`](https://github.com/stdlib-js/stdlib/commit/048e06b6a6d7655a5bf4c20840e14f2449b34950) - **test:** migrate `stats/base/dists/kumaraswamy/mean` to ULP-based assertions [(#14163)](https://github.com/stdlib-js/stdlib/pull/14163) _(by Athan Reines)_
+-   [`2f6c686`](https://github.com/stdlib-js/stdlib/commit/2f6c686a77739f4d4b33c717457c7698f791e968) - **test:** migrate `stats/base/dists/pareto-type1/median` to ULP-based assertions [(#14155)](https://github.com/stdlib-js/stdlib/pull/14155) _(by Athan Reines)_
+-   [`c6230dd`](https://github.com/stdlib-js/stdlib/commit/c6230dd99b8485b978ccbbf55e3bf3d4aba54359) - **test:** migrate `stats/base/dists/gamma/quantile` to ULP-based assertions [(#14167)](https://github.com/stdlib-js/stdlib/pull/14167) _(by Athan Reines)_
+-   [`a9cfa23`](https://github.com/stdlib-js/stdlib/commit/a9cfa239b23fce770c9bb7a6f35ce073fc807020) - **test:** migrate `stats/base/dists/beta/median` to ULP-based assertions [(#14174)](https://github.com/stdlib-js/stdlib/pull/14174) _(by Athan Reines)_
+-   [`99b2dea`](https://github.com/stdlib-js/stdlib/commit/99b2dea681f348b20578ff3b0d6f2be4c4dc0c81) - **test:** migrate `stats/base/dists/arcsine/logcdf` to ULP-based assertions [(#14180)](https://github.com/stdlib-js/stdlib/pull/14180) _(by Athan Reines)_
+-   [`6d5eafc`](https://github.com/stdlib-js/stdlib/commit/6d5eafc44e2a11f86270fcc55cd91df950fb5758) - **test:** migrate `stats/base/dists/signrank/quantile` to ULP-based assertions [(#14154)](https://github.com/stdlib-js/stdlib/pull/14154) _(by Athan Reines)_
+-   [`fc38da1`](https://github.com/stdlib-js/stdlib/commit/fc38da1a46f93f15193f2e2072077027f4f2af24) - **docs:** fix example [(#14152)](https://github.com/stdlib-js/stdlib/pull/14152) _(by Philipp Burckhardt, Athan Reines)_
+-   [`ccc3c46`](https://github.com/stdlib-js/stdlib/commit/ccc3c46246b611479e4df9aa7d4ca0a523e28731) - **chore:** clean-up [(#14138)](https://github.com/stdlib-js/stdlib/pull/14138) _(by Philipp Burckhardt)_
+-   [`a2e365c`](https://github.com/stdlib-js/stdlib/commit/a2e365c213841d741b3c69533efc5cfaaa8212e0) - **test:** migrate `stats/base/dists/laplace/logcdf` to ULP-based assertions [(#14141)](https://github.com/stdlib-js/stdlib/pull/14141) _(by Athan Reines)_
+-   [`44cb452`](https://github.com/stdlib-js/stdlib/commit/44cb45281476abad44f0adaccbc0e1fafdbd04ee) - **test:** migrate `stats/base/dists/f/mode` to ULP-based assertions [(#14147)](https://github.com/stdlib-js/stdlib/pull/14147) _(by Athan Reines)_
+-   [`af0c6b6`](https://github.com/stdlib-js/stdlib/commit/af0c6b67ada2bab7296e693588b4d7e04c41ae3f) - **docs:** fix C API parameter descriptions [(#14134)](https://github.com/stdlib-js/stdlib/pull/14134) _(by Philipp Burckhardt)_
+-   [`476cf1d`](https://github.com/stdlib-js/stdlib/commit/476cf1d820ed2fd05550d80e8d53b531690430f2) - **test:** migrate `stats/base/dists/pareto-type1/quantile` to ULP-based assertions [(#14129)](https://github.com/stdlib-js/stdlib/pull/14129) _(by Athan Reines)_
+-   [`d844b50`](https://github.com/stdlib-js/stdlib/commit/d844b501d6650be72ff85cff2e8d4ad5a917a6a0) - **test:** migrate `stats/base/dists/pareto-type1/kurtosis` to ULP-based assertions [(#14119)](https://github.com/stdlib-js/stdlib/pull/14119) _(by Athan Reines)_
+-   [`5ee4874`](https://github.com/stdlib-js/stdlib/commit/5ee48744ae9c4ba3a46ee2d4aa27a1ffb7362332) - **test:** migrate `stats/base/dists/weibull/logcdf` to ULP-based assertions [(#14109)](https://github.com/stdlib-js/stdlib/pull/14109) _(by Athan Reines)_
+-   [`9733443`](https://github.com/stdlib-js/stdlib/commit/97334439df4be90461f99e0a5346e82e9bfed456) - **test:** migrate `stats/base/dists/uniform/entropy` to ULP-based assertions [(#14108)](https://github.com/stdlib-js/stdlib/pull/14108) _(by Philipp Burckhardt)_
+-   [`f6d52ce`](https://github.com/stdlib-js/stdlib/commit/f6d52ce8ab90649eb6c7d2802b003e2b6773949e) - **test:** migrate `stats/base/dists/negative-binomial/pmf` to ULP-based assertions [(#14101)](https://github.com/stdlib-js/stdlib/pull/14101) _(by Athan Reines)_
+-   [`ae08f7c`](https://github.com/stdlib-js/stdlib/commit/ae08f7cb4fe984df6e38a721649aed5ad9267e67) - **test:** migrate `stats/base/dists/hypergeometric/pmf` to ULP-based assertions [(#14091)](https://github.com/stdlib-js/stdlib/pull/14091) _(by Athan Reines)_
+-   [`65a5d15`](https://github.com/stdlib-js/stdlib/commit/65a5d155944a423ba8d9e564fefb839c2e949544) - **test:** migrate `stats/base/dists/chi/quantile` to ULP-based assertions [(#14086)](https://github.com/stdlib-js/stdlib/pull/14086) _(by Philipp Burckhardt)_
+-   [`12769a7`](https://github.com/stdlib-js/stdlib/commit/12769a7152892853b8380b386a43d4ce6777321e) - **test:** migrate `stats/base/dists/halfnormal/stdev` to ULP-based assertions [(#14084)](https://github.com/stdlib-js/stdlib/pull/14084) _(by Athan Reines)_
+-   [`3f3fce8`](https://github.com/stdlib-js/stdlib/commit/3f3fce8c869a5f1ef3898964964ae8cfad803894) - **test:** migrate `stats/base/dists/lognormal/variance` to ULP-based assertions [(#14069)](https://github.com/stdlib-js/stdlib/pull/14069) _(by Athan Reines)_
+-   [`b149fa7`](https://github.com/stdlib-js/stdlib/commit/b149fa757b98c9bc6050f91c5415c3e0a607f83d) - **chore:** clean-up [(#14014)](https://github.com/stdlib-js/stdlib/pull/14014) _(by Philipp Burckhardt, Athan Reines)_
+-   [`8500b0f`](https://github.com/stdlib-js/stdlib/commit/8500b0fd74343085c08370004e90cf35cffb360e) - **test:** migrate `stats/base/dists/erlang/skewness` to ULP-based assertions [(#14022)](https://github.com/stdlib-js/stdlib/pull/14022) _(by Athan Reines)_
+-   [`ad94429`](https://github.com/stdlib-js/stdlib/commit/ad944294ccfe76a87926468637863f127fc005c4) - **docs:** update Markdown equation elements [(#13995)](https://github.com/stdlib-js/stdlib/pull/13995) _(by stdlib-bot)_
+-   [`7b64d86`](https://github.com/stdlib-js/stdlib/commit/7b64d86d19a7dde54b04f244eabc86f12fcfe4a5) - **test:** migrate `stats/base/dists/arcsine/cdf` to ULP-based testing [(#13986)](https://github.com/stdlib-js/stdlib/pull/13986) _(by Jannatul Mawa, Athan Reines)_
+-   [`1d6be7a`](https://github.com/stdlib-js/stdlib/commit/1d6be7a287ef9b738f9a8dfdd9c3fe37b92399a0) - **test:** migrate `stats/base/dists/pareto-type1/cdf` to ULP-based assertions [(#13941)](https://github.com/stdlib-js/stdlib/pull/13941) _(by Philipp Burckhardt)_
+-   [`f1c6572`](https://github.com/stdlib-js/stdlib/commit/f1c65722a3e378195187b5c815f50cbda36e1e3d) - **feat:** add `stats/base/dists/wald/mgf` [(#12399)](https://github.com/stdlib-js/stdlib/pull/12399) _(by Manit Roy, Athan Reines, Philipp Burckhardt)_
+-   [`075cabd`](https://github.com/stdlib-js/stdlib/commit/075cabdcc90e9f333a2329ae382fca574ee3f841) - **docs:** fix descriptions [(#13938)](https://github.com/stdlib-js/stdlib/pull/13938) _(by Philipp Burckhardt)_
 -   [`7ae11bc`](https://github.com/stdlib-js/stdlib/commit/7ae11bca9e05607a14425d165dfed57584b880b8) - **chore:** clean-up [(#13834)](https://github.com/stdlib-js/stdlib/pull/13834) _(by Philipp Burckhardt)_
 -   [`3371e44`](https://github.com/stdlib-js/stdlib/commit/3371e4463d04c07659080c2a6dcf82898f2b7f56) - **test:** migrate `stats/base/dists/t/quantile` to ULP-based assertions [(#13847)](https://github.com/stdlib-js/stdlib/pull/13847) _(by Philipp Burckhardt)_
 -   [`be0b1f5`](https://github.com/stdlib-js/stdlib/commit/be0b1f501a4af5546f7ff6ee979585e22bdd56a6) - **chore:** clean-up [(#13780)](https://github.com/stdlib-js/stdlib/pull/13780) _(by Philipp Burckhardt, Athan Reines)_
@@ -422,13 +459,14 @@ A total of 19 issues were closed in this release:
 
 ### Contributors
 
-A total of 25 people contributed to this release. Thank you to the following contributors:
+A total of 26 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Bhargav Dabhade
 -   Blessed Oigbochie
 -   Dev Goel
 -   Guneet Gill
+-   Jannatul Mawa
 -   Kamal Singh Rautela
 -   Karan Anand
 -   LZYCODEr
